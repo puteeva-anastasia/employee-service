@@ -1,0 +1,112 @@
+ const DATA = [{
+         id: 0,
+         photo: "img/user-2.jpg",
+         name: "Dzmitry",
+         surname: "Antonenka",
+         nameNat: "Дмитрий",
+         surnameNat: "Антоненко",
+         departament: "Web & Mobile",
+         room: 1608,
+         phone: "+375 29 1234567",
+         email: "dzmitry.antonenka@leverx.com",
+         skype: "d.antonenka",
+         hireDate: "12 Jan 2010",
+         status: "Active"
+     },
+
+     {
+         id: 1,
+         photo: "img/user-3.jpg",
+         name: "Aleh",
+         surname: "Zhukau",
+         nameNat: "Олег",
+         surnameNat: "Жуков",
+         departament: "Web & Mobile",
+         room: 1608,
+         phone: "+375 29 1410000",
+         email: "aleh.zhukau@leverx.com",
+         skype: "a.zhukau",
+         hireDate: "12 Jan 2012",
+         status: "Active"
+     },
+
+     {
+         id: 2,
+         photo: "img/user-4.jpg",
+         name: "Maxim",
+         surname: "Podolsky",
+         nameNat: "Максим",
+         surnameNat: "Подольский",
+         departament: "Web & Mobile",
+         room: 1608,
+         phone: "+375 29 6520500",
+         email: "maxim.podolsky@leverx.com",
+         skype: "m.podolsky",
+         hireDate: "12 Jan 2012",
+         status: "Active"
+     },
+
+     {
+         id: 3,
+         photo: "img/user-1.jpg",
+         name: "Anna",
+         surname: "Belova",
+         nameNat: "Анна",
+         surnameNat: "Белова",
+         departament: "Web & Mobile",
+         room: 1608,
+         phone: "+375 29 6520500",
+         email: "anna.belova@leverx.com",
+         skype: "a.belova",
+         hireDate: "12 Jan 2012",
+         status: "Active"
+     },
+
+     {
+         id: 4,
+         photo: "img/user-5.jpg",
+         name: "Vitaly",
+         surname: "Vlasov",
+         nameNat: "Виталий",
+         surnameNat: "Власов",
+         departament: "Web & Mobile",
+         room: 1608,
+         phone: "+375 29 6520500",
+         email: "vitaly.vlasov@leverx.com",
+         skype: "v.vlasov",
+         hireDate: "12 Jan 2012",
+         status: "Active"
+     },
+
+     {
+         id: 5,
+         photo: "img/user-6.png",
+         name: "Stepan",
+         surname: "Smirnov",
+         nameNat: "Степен",
+         surnameNat: "Смирнов",
+         departament: "Web & Mobile",
+         room: 1608,
+         phone: "+375 29 6520500",
+         email: "stepan.smirnov@leverx.com",
+         skype: "s.smirnov",
+         hireDate: "12 Jan 2012",
+         status: "Active"
+     },
+
+     {
+         id: 6,
+         photo: "img/profile_photo.png",
+         name: "Pavel",
+         surname: "Staselko",
+         nameNat: "Павел",
+         surnameNat: "Стаселько",
+         departament: "Web & Mobile",
+         room: 1609,
+         phone: "+375 29 6520500",
+         email: "pavel.staselko@leverx.com",
+         skype: "p.staselko",
+         hireDate: "12 Jan 2012",
+         status: "Active"
+     },
+ ]

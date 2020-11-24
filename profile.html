@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="font-awesome/css/all.min.css">
+    <title>User</title>
+</head>
+<body>
+
+    <div class="container">
+        <header class="header">
+            <div class="header-border">
+                <a href="index.html" class="logo">
+                    <span class="company-name">leverx group</span>
+                    <span class="service-name">employee services</span>
+                </a>
+                <div class="header-info">
+                    <button class="send">
+                        <i class="far fa-paper-plane send-icon"></i>
+                    </button>
+                    <a class="user" href="index.html">
+                        <img src="img/profile_photo.png" alt="profile_photo" class="user-photo">
+                        <span class="user-name">anastasia puteeva</span>
+                    </a>
+                    <button class="power-off">
+                        <i class="fas fa-power-off power-off-icon"></i>
+                    </button>
+                </div>
+            </div>
+        </header>
+        <main class="main-block" id="main-block">
+
+        </main>
+    </div>
+    
+    <script type="text/template" id="main-block-template">
+        <div class="page-block">
+            <div class="brief-info">
+                <button class="come-back" id="come-back" onclick="goBack()">  
+                    <i class="fas fa-chevron-left come-back-icon"></i>
+                </button>
+                <div class="brief-info-wrp">
+                    <img src="PHOTO" alt="profile_photo" class="card-img">
+                    <span class="card-name">NAME</span>
+                    <span class="card-name-native">NAMENAT</span>
+                </div>
+            </div>
+            <div class="detailed-info">
+                <div class="detailed-info-wrp">
+                    <div class="detailed-info-block">
+                        <span class="detailed-info-title">general info</span>
+                        <div class="category">
+                            <i class="fas fa-briefcase department-icon icon"></i>
+                            <span class="category-title">Department</span>
+                        </div>
+                        <div class="category">
+                            <span class="category-value">DEPARTMENT</span>
+                        </div>
+                        <div class="category">
+                            <i class="fas fa-door-closed room-icon icon"></i>
+                            <span class="category-title">Room</span>
+                        </div>
+                        <div class="category">
+                            <span class="category-value">ROOM</span>
+                        </div>
+                    </div>
+                    <div class="detailed-info-block">
+                        <span class="detailed-info-title">contacts</span>
+                        <div class="category">
+                            <i class="fas fa-mobile mobile-icon icon"></i>
+                            <span class="category-title">Mobile phone</span>
+                        </div>
+                        <div class="category">
+                            <span class="category-value">PHONE</span>
+                        </div>
+                        <div class="category">
+                            <i class="fas fa-at email-icon icon"></i>
+                            <span class="category-title">Email</span>
+                        </div>
+                        <div class="category">
+                            <span class="category-value">EMAIL</span>
+                        </div>
+                        <div class="category">
+                            <i class="fab fa-skype skype-icon icon"></i>
+                            <span class="category-title">Skype ID</span>
+                        </div>
+                        <div class="category">
+                            <span class="category-value">SKYPE</span>
+                        </div>
+                    </div>
+                    <div class="detailed-info-block">
+                        <span class="detailed-info-title">profile info</span>
+                        <div class="category">
+                            <i class="far fa-calendar-alt hire-date-icon icon"></i>
+                            <span class="category-title">Hire date</span>
+                        </div>
+                        <div class="category">
+                            <span class="category-value">HIREDATE</span>
+                        </div>
+                        <div class="category">
+                            <i class="fas fa-bolt status-icon icon"></i>
+                            <span class="category-title">Status</span>
+                        </div>
+                        <div class="category">
+                            <span class="category-value">STATUS</span>
+                        </div>
+                    </div>
+                </div>
+                <button class="btn-edit-details">edit details</button>
+            </div>
+        </div>
+    </script>
+    <script src="js/data.js"></script>
+    <script src="js/app2.js"></script>
+</body>
+</html>

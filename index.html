@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="font-awesome/css/all.min.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="container">
+        <header class="header">
+            <div class="header-border">
+                <a href="index.html" class="logo">
+                    <span class="company-name">leverx group</span>
+                    <span class="service-name">employee services</span>
+                </a>
+                <div class="header-info">
+                    <button class="send">
+                        <i class="far fa-paper-plane send-icon"></i>
+                    </button>
+                    <a class="user" href="index.html">
+                        <img src="img/profile_photo.png" alt="profile_photo" class="user-photo">
+                        <span class="user-name">anastasia puteeva</span>
+                    </a>
+                    <button class="power-off">
+                        <i class="fas fa-power-off power-off-icon"></i>
+                    </button>
+                </div>
+            </div>
+        </header>
+        <main class="main-block" id="main-block">
+            <div class="search">
+                <span class="search-basic">basic search</span>
+                <div class="search-form" id="search-form">
+                    <input type="text" class="search-field" placeholder="John Smith / Джон Смит" id="search-field"
+                        autocomplete="off">
+                    <input type="button" class="search-button" value="Search" id="search-button">
+                </div>
+            </div>
+            <div class="main-block-info">
+                <div class="controls">
+                    <span class="result-stats" id="result-stats"></span>
+                    <div class="views">
+                        <button class="grid-view" id="grid-view">
+                            <i class="fas fa-th-large grid-view-icon view-active" id="grid-view-icon"></i>
+                        </button>
+                        <button class="table-view" id="table-view">
+                            <i class="fas fa-bars table-view-icon" id="table-view-icon"></i>
+                        </button>
+                    </div>
+                </div>
+                <div class="test" id="test"></div>
+                <div class="cards" id="cards">
+                    <!--js code here-->
+                </div>
+            </div>
+
+        </main>
+    </div>
+
+    <!--tempalates-->
+    <template id="categories-template">
+        <div class="categories">
+            <div class="category category-photo">
+                <div class="photo-icon"></div>
+                <span class="category-title">Photo</span>
+            </div>
+            <div class="category category-name">
+                <i class="fas fa-user name-icon"></i>
+                <span class="category-title">Name</span>
+            </div>
+            <div class="category category-department">
+                <i class="fas fa-briefcase department-icon"></i>
+                <span class="category-title">Department</span>
+            </div>
+            <div class="category category-room">
+                <i class="fas fa-door-closed room-icon"></i>
+                <span class="category-title">Room</span>
+            </div>
+        </div>
+    </template>
+
+    <script type="text/template" id="grid-view-template">
+        <a href="profile.html" class="card" id="Id">
+            <img src="Photo" alt="profile_photo" class="card-img">
+            <span class="card-name">Name</span>
+            <span class="card-name-native">NameNat</span>
+            <div class="card-additional-info">
+                <div class="department" >
+                    <i class="fas fa-briefcase department-icon" ></i>
+                    <span class="department-name" >Department</span>
+                </div>
+                <div class="room" >
+                    <i class="fas fa-door-closed room-icon" ></i>
+                    <span class="room-number" >Room</span>
+                </div>
+            </div>
+        </a>
+    </script>
+
+    <script type="text/template" id="table-view-template">
+        <a href="profile.html" class="card-table" id="Id"> 
+            <img src="Photo" alt="user-photo" class="card-img" >
+            <div class="card-names" >
+                <span class="card-name" >Name</span>
+                <span class="card-name-native" >NameNat</span>
+            </div>
+            <span class="department-name">Department</span>
+            <span class="room-number" >Room</span>
+        </a>
+    </script>
+    <script src="js/data.js"></script>
+    <script src="js/app.js"></script>
+</body>
+
+</html>
